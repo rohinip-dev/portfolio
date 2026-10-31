@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohini Pandit | UI/UX Designer &amp; Web Developer</title>
+  <meta name="description" content="Rohini Pandit: UI/UX designer and web developer. Portfolio of projects, skills and creative work.">
+  <meta name="theme-color" content="#0d0b1f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rohini Pandit | UI/UX Designer & Web Developer">
+  <meta property="og:description" content="Projects, skills and creative work by Rohini Pandit.">
+  <meta property="og:image" content="https://rohinip-dev.github.io/portfolio/images/me.jpg">
+  <meta property="og:url" content="https://rohinip-dev.github.io/portfolio/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading screen -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">R♡</div>
+      <p>Welcome to my portfolio...</p>
+      <div class="loader-bar"><i></i></div>
+    </div>
+  </div>
+
+  <!-- Scroll progress bar -->
+  <div class="progress" id="progress"></div>
+
+  <!-- Floating glow lights -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <!-- Navbar -->
+  <nav class="nav">
+    <a href="#home" class="logo">Rohini<span>.</span></a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#contact">Contact</a>
+    </div>
+        <button id="themeBtn" class="theme-btn" aria-label="Toggle light and dark theme">🌙</button>
+    <button id="menuBtn" class="menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <main id="main">
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <p class="hello">Hi, I'm</p>
+    <h1>Rohini Pandit</h1>
+        <p class="role" aria-label="I'm a UI/UX Designer, Web Developer and Content Creator">
+      <span aria-hidden="true">I'm a <span id="typing"></span><span class="caret">|</span></span>
+    </p>
+    <p class="tag">I turn ideas into beautiful, working digital experiences.</p>
+    <div class="hero-btns">
+      <a href="#work" class="btn">See my work ↓</a>
+      <a href="Rohini-Pandit-Resume.pdf" download class="btn btn-outline">Download CV ⬇</a>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about" id="about">
+    <div class="reveal">
+      <div class="photo-wrap">
+        <img src="images/rohini.png" alt="Rohini Pandit">
+      </div>
+    </div>
+
+    <div class="about-card reveal">
+      <h2>About <span class="grad-text">me</span></h2>
+      <p>
+        Hi, I'm Rohini Pandit, a BCA and MCA graduate, aspiring UI/UX
+        designer, and web developer with a love for creativity, technology,
+        and beautiful digital experiences.
+      </p>
+      <p>
+        This little space is where my ideas, designs, projects, and learning
+        journey come together. I'm here to learn, create, experiment, and
+        grow one step at a time.
+      </p>
+      <p class="quote">
+        Stay a little curious, dream a little bigger, and let's create
+        something lovely. ♡
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= STATS + CURRENTLY ================= -->
+  <section class="now">
+
+    <div class="stats">
+      <div class="stat reveal">
+        <h3><span class="num" data-target="3">0</span>+</h3>
+        <p>Projects built</p>
+      </div>
+      <div class="stat reveal">
+        <h3><span class="num" data-target="2">0</span></h3>
+        <p>Degrees: BCA &amp; MCA</p>
+      </div>
+      <div class="stat reveal">
+        <h3><span class="num" data-target="4">0</span></h3>
+        <p>Metro departments explored</p>
+      </div>
+      <div class="stat reveal">
+        <h3><span class="num" data-target="13">0</span>+</h3>
+        <p>YouTube videos</p>
+      </div>
+    </div>
+
+    <div class="now-card reveal">
+      <div class="now-head">
+        <span class="live-dot"></span>
+        <h3>Currently</h3>
+      </div>
+
+      <div class="now-grid">
+        <div>
+          <h4>📖 Learning</h4>
+          <p>UI/UX design, Figma, and React.js</p>
+        </div>
+        <div>
+          <h4>🛠️ Building</h4>
+          <p>New web projects and this portfolio</p>
+        </div>
+        <div>
+          <h4>🎬 Creating</h4>
+          <p>Aesthetic desktop tutorials on YouTube</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="work" id="work">
+    <h2 class="section-title reveal">My <span class="grad-text">Creative Work</span></h2>
+    <p class="section-sub reveal">Things I've built, one idea at a time.</p>
+
+    <div class="cards">
+
+      <div class="reveal">
+        <article class="card">
+          <div class="card-img">
+            <img src="images/metrogo.png" alt="MetroGo home page screenshot" loading="lazy">
+            <span class="badge">🚇</span>
+          </div>
+          <h3>MetroGo</h3>
+          <h4>Smart Metro Rail Management System</h4>
+          <p>Route planning, QR ticket booking, fare predictions, and a one-tap SOS alert.</p>
+          <div class="chips">
+            <span>React.js</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+          <button class="card-btn" data-project="metrogo">View details →</button>
+        </article>
+      </div>
+
+      <div class="reveal">
+        <article class="card">
+          <div class="card-img">
+            <img src="images/brewtheory.png" alt="BrewTheory Cafe home page screenshot" loading="lazy">
+            <span class="badge">☕</span>
+          </div>
+          <h3>BrewTheory Cafe</h3>
+          <h4>Smart Cafe Web Application</h4>
+          <p>Table booking, food ordering, and billing, with an admin panel for the cafe.</p>
+          <div class="chips">
+            <span>Node.js</span><span>MySQL</span><span>JavaScript</span>
+          </div>
+          <button class="card-btn" data-project="brewtheory">View details →</button>
+        </article>
+      </div>
+
+      <div class="reveal">
+        <article class="card">
+          <div class="card-img">
+            <img src="images/gallery.png" alt="My Gallery home page screenshot" loading="lazy">
+            <span class="badge">📷</span>
+          </div>
+          <h3>My Gallery</h3>
+          <h4>Retro 8-bit Photo Album</h4>
+          <p>Polaroid-style memories with pixel themes, cursors, and background music.</p>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <button class="card-btn" data-project="gallery">View details →</button>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="skills" id="skills">
+    <h2 class="section-title reveal">Skills <span class="grad-text">&amp; Tools</span></h2>
+    <p class="section-sub reveal">What's in my toolbox.</p>
+
+    <div class="skill-grid">
+
+      <div class="skill-group reveal">
+        <h3>🎨 Design &amp; User Experience</h3>
+        <div class="pills">
+          <span>UI/UX Design</span><span>Visual Design</span>
+          <span>Layout &amp; Colour Theory</span><span>Figma</span><span>Canva</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3>💻 Web Development</h3>
+        <div class="pills">
+          <span>HTML5 &amp; CSS3</span><span>JavaScript</span><span>React.js</span>
+          <span>Node.js &amp; Express.js</span><span>MySQL</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3>🎬 Creative Content</h3>
+        <div class="pills">
+          <span>YouTube Content Creation</span><span>Visual Communication</span>
+          <span>Thumbnail &amp; Graphic Design</span><span>Content Planning</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3>🌟 Professional Skills</h3>
+        <div class="pills">
+          <span>Creative Problem-Solving</span><span>Research &amp; Learning</span>
+          <span>Attention to Detail</span><span>Communication</span>
+          <span>Project Planning</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= JOURNEY ================= -->
+  <section class="journey" id="journey">
+    <h2 class="section-title reveal">My Journey <span class="grad-text">So Far</span></h2>
+    <p class="section-sub reveal">From learning the basics to building real things.</p>
+
+    <div class="timeline">
+
+      <div class="step reveal">
+        <div class="dot">🎓</div>
+        <div class="step-card">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <h4>Bhartihar University, Coimbatore, TN</h4>
+          <p>Built my foundation in programming, computer science, and application development.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="dot">📚</div>
+        <div class="step-card">
+          <h3>Master of Computer Applications (MCA)</h3>
+          <h4>Brindavan College, Bangalore, Karnataka</h4>
+          <p>Developed my knowledge of computer applications, software development, and information technology.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="dot">🚇</div>
+        <div class="step-card">
+          <h3>Internship Trainee, Operations &amp; Maintenance</h3>
+          <h4>Bangalore Metro Rail Corporation Limited (BMRCL) · July – September 2026</h4>
+          <p>Gained exposure to four technical departments and real-world industry practices:</p>
+          <div class="pills small">
+            <span>Signalling</span><span>Telecom</span>
+            <span>Automatic Fare Collection</span><span>Information Technology</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="dot">🌱</div>
+        <div class="step-card">
+          <h3>My Continuous Journey</h3>
+          <p>
+            Always learning, exploring UI/UX design, and growing my web
+            development skills. Through personal projects, creative content,
+            and hands-on experience, I combine creativity and technology to
+            build meaningful digital experiences.
+          </p>
+          <p class="quote">Always learning, always creating, always growing. ♡</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- ================= DESIGN GALLERY ================= -->
+  <section class="designs" id="designs">
+    <h2 class="section-title reveal">Design <span class="grad-text">Gallery</span></h2>
+    <p class="section-sub reveal">Thumbnails, graphics, and visual experiments. Click to enlarge.</p>
+
+           <div class="g-grid">
+      <button class="g-item reveal" data-caption="Aesthetic BGM thumbnail">
+        <img src="images/design1.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Aesthetic BGM thumbnail</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Text styling thumbnail">
+        <img src="images/design2.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Text styling thumbnail</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Desktop customisation cover">
+        <img src="images/design3.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Desktop customisation cover</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Design 4">
+        <img src="images/design4.png" alt=" " loading="lazy">
+        <span class="g-cap">Design 4</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Design 5">
+        <img src="images/design5.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Design 5</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Design 6">
+        <img src="images/design6.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Design 6</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Design 7">
+        <img src="images/design7.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Design 7</span>
+      </button>
+
+      <button class="g-item reveal" data-caption="Design 8">
+        <img src="images/design8.jpg" alt=" " loading="lazy">
+        <span class="g-cap">Design 8</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ================= YOUTUBE ================= -->
+  <section class="youtube" id="youtube">
+    <h2 class="section-title reveal">Beyond <span class="grad-text">The Screen</span></h2>
+    <p class="section-sub reveal">My creative corner on the internet.</p>
+
+    <div class="yt-card reveal">
+      <div class="yt-play">▶</div>
+
+      <div class="yt-text">
+        <h3>@itsjustru</h3>
+        <p>
+          My YouTube channel is a space where I explore technology, create
+          aesthetic desktop tutorials, and share digital tips. Through
+          content creation, I keep developing my creativity, visual
+          communication, and technical skills while sharing what I learn.
+        </p>
+
+        <h4>What I create</h4>
+        <ul>
+          <li>Aesthetic desktop customisation</li>
+          <li>Beginner-friendly tech tutorials</li>
+          <li>Creative digital content</li>
+        </ul>
+
+               <a class="btn" href="https://www.youtube.com/@itsjustru" target="_blank" rel="noopener">
+          Visit my channel ♡
+        </a>
+      </div>
+    </div>
+
+    <div class="yt-video reveal">
+      <button class="yt-facade" id="ytFacade" data-id="bS5pYVKcP3A" aria-label="Play my latest video">
+        <img id="ytThumb" alt="Video thumbnail">
+        <span class="yt-btn">▶</span>
+      </button>
+      <p class="yt-caption">▶ Watch one of my videos</p>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <h2 class="section-title reveal">Let's <span class="grad-text">Connect</span></h2>
+    <p class="section-sub reveal">Have a project or an idea?</p>
+
+    <div class="contact-card reveal">
+      <p>
+        I'd love to connect with people who share a passion for design,
+        technology, and creativity. Whether it's a job opportunity, a
+        collaboration, or simply exchanging ideas, my inbox is open!
+      </p>
+
+      <div class="email-row">
+        <a href="mailto:panditrohini207@gmail.com" class="email">✉️ panditrohini207@gmail.com</a>
+        <button id="copyBtn" class="copy-btn">Copy email</button>
+      </div>
+      <p class="form-title">Or send me a message here 💌</p>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="field">
+            <label for="fName">Your name</label>
+            <input type="text" id="fName" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="field">
+            <label for="fEmail">Your email</label>
+            <input type="email" id="fEmail" name="email" placeholder="youremail@example.com" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="fMsg">Message</label>
+          <textarea id="fMsg" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+        </div>
+
+        <!-- hidden trap for spam bots: real people never see or fill this -->
+        <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="submit" class="send-btn" id="sendBtn">Send message ✉️</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/rohini-pandit-133522280" target="_blank" rel="noopener">💼 LinkedIn</a>
+        <a href="https://github.com/rohinip-dev" target="_blank" rel="noopener">💻 GitHub</a>
+        <a href="https://www.youtube.com/@itsjustru" target="_blank" rel="noopener">🎬 YouTube</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <p>Thank you for visiting my little corner of the internet.</p>
+    <p class="quote">Keep dreaming, creating, and growing. ♡</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <!-- Project pop-up -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <img id="mImg" alt="">
+      <div class="modal-body">
+        <h3 id="mTitle"></h3>
+        <h4 id="mSub"></h4>
+        <p id="mDesc"></p>
+        <h5>Key features</h5>
+        <ul id="mFeatures"></ul>
+        <div class="chips" id="mTech"></div>
+        <div class="modal-btns">
+          <a id="mLive" class="btn" target="_blank" rel="noopener">Live demo ↗</a>
+          <a id="mCode" class="btn btn-outline" target="_blank" rel="noopener">Code ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">›</button>
+  </div>
+
+    <!-- Floating buttons: music + color mood -->
+  <div class="dock">
+    <button id="musicBtn" class="dock-btn" aria-label="Play background music" aria-pressed="false">🎵</button>
+    <button id="paletteBtn" class="dock-btn" aria-label="Choose color mood" aria-expanded="false">🎨</button>
+
+    <div class="swatches" id="swatches">
+      <button class="swatch" data-mood="dreamy" title="Dreamy" aria-label="Dreamy violet mood"></button>
+      <button class="swatch" data-mood="rose"   title="Rose"   aria-label="Rose mood"></button>
+      <button class="swatch" data-mood="mint"   title="Mint"   aria-label="Mint mood"></button>
+      <button class="swatch" data-mood="cream"  title="Cream"  aria-label="Cream and coffee mood"></button>
+    </div>
+  </div>
+
+  <audio id="bgm" src="music.mp3" loop preload="none"></audio>
+
+  <!-- "Email copied" message -->
+  <div class="toast" id="toast">Email copied! ✨</div>
+
+  <script src="script.js"></script>
+</body>
+  <a href="#main" class="skip-link">Skip to content</a>
+</html>
